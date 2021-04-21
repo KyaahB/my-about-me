@@ -1,0 +1,133 @@
+/*
+Get the pictures and text squared in the center of the page.
+*/
+
+* {
+    box-sizing:border-box;
+    padding: 3px;
+    margin: 3px;
+    
+}
+
+ /*
+ Customize profile image.
+ */
+.img {
+    width: 5px;
+    height: 5px;
+    
+}
+
+/*
+Customize header.
+*/
+header {
+    height: 100px;
+    width: 100%;
+    border-bottom: orange;
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/*
+Customize section titles
+*/
+h2 {
+    font-style: italic;
+    color:orchid;
+    font-size: 30px;
+    text-align: left;
+}
+
+/*
+Customize text on the entire page with p tag.
+*/
+p{
+    font-style: oblique;
+    font-size: 50x;
+    color:gray;
+    text-align: center;
+}
+
+
+
+/*
+Cuztomize header at the top of the page.
+*/
+h1{
+    font-style: italic;
+    color: teal;
+
+}
+
+/*
+Get contact links to jump page when clicked on and connect to web source.
+*/
+li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: right;
+    font-style: oblique;
+    
+    
+}
+/*
+Customize portfolio images. Push images to right side of the page.
+*/
+.portfolio-box {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: right;
+    padding: 50px;
+    margin: 5px;
+    font-size: 20px;
+
+}
+ 
+/*
+Customize boxes in portfolio.
+*/
+.big {
+    height: 350px;
+    width: 450px;
+}
+
+.box1{
+    height: 200px;
+    width: 210px;
+}
+
+.box2{
+    height: 200px;
+    width: 210px;
+}
+
+.box3{
+    height: 200px;
+    width: 210px;
+}
+
+.box4{
+    height: 200px;
+    width: 210px;
+}
+
+/*
+Customize footer.
+*/
+.contacts p {
+    padding: 50px 50px;
+     
+}
+
+/*
+Customize footer.
+*/
+footer {
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: DarkSalmon;
+    
+  }
