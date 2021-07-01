@@ -1,2 +1,2 @@
 # my-about-me
-homework2
+My webpage portfolio filled with information about me and deployed projects!
