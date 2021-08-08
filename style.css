@@ -12,10 +12,8 @@ Get the pictures and text squared in the center of the page.
  /*
  Customize profile image.
  */
-.img {
-    width: 5px;
-    height: 5px;
-    
+img {
+  border-radius: 50%;
 }
 
 /*
