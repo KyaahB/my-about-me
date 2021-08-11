@@ -2,18 +2,20 @@
 Get the pictures and text squared in the center of the page.
 */
 
-* {
+/* * {
     box-sizing:border-box;
     padding: 3px;
     margin: 3px;
     
-}
+} */
 
  /*
  Customize profile image.
  */
 img {
   border-radius: 50%;
+  height: 250px;
+  margin: 20px;
 }
 
 /*
@@ -40,12 +42,30 @@ h2 {
 /*
 Customize text on the entire page with p tag.
 */
-p{
-    font-style: oblique;
-    font-size: 50x;
-    color:gray;
-    text-align: center;
+#description{
+
+    padding: 30px;
+    font-family: 'Gill Sans';
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    width: 80%;
 }
+
+section{
+    justify-content: right;
+    display:flex;
+    background-color: palegoldenrod;
+}
+
+
+
+
+
+#description{
+display:inline-block;
+} 
 
 
 
@@ -53,8 +73,8 @@ p{
 Cuztomize header at the top of the page.
 */
 h1{
-    font-style: italic;
     color: teal;
+    font-family: 'Avantgarde';
 
 }
 
