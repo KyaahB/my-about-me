@@ -1,31 +1,38 @@
+:root {
+--navy: #383f51ff;
+--lavender: #dddbf1ff;
+--orange: #fe4e00ff;
+--blue: #3c4f76ff;
+--yellow: #ffae03ff;
+--mustard: #e67f0dff;
+}
+
+
 /*
-Get the pictures and text squared in the center of the page.
+Customize profile image.
 */
-
-/* * {
-    box-sizing:border-box;
-    padding: 3px;
-    margin: 3px;
-    
-} */
-
- /*
- Customize profile image.
- */
 img {
-  border-radius: 50%;
-  height: 250px;
-  margin: 20px;
+    border-radius: 50%;
+    height: 250px;
+    margin: 20px;
+}
+
+/* customize my name */
+h1{
+    color:var(--orange);
+    font-family: 'Avantgarde';
+    font-size: 40px;
+
 }
 
 /*
 Customize header.
 */
 header {
-    height: 100px;
+    height: 150px;
     width: 100%;
-    border-bottom: orange;
-    background-color: orange;
+    /* border-bottom: orange; */
+    background-color: var(--orange);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -51,12 +58,13 @@ Customize text on the entire page with p tag.
     font-style: italic;
     font-size: 20px;
     width: 80%;
+    background-color: var(--yellow)
 }
 
 section{
     justify-content: right;
     display:flex;
-    background-color: palegoldenrod;
+    background-color: var(--mustard);
 }
 
 
@@ -72,11 +80,6 @@ display:inline-block;
 /*
 Cuztomize header at the top of the page.
 */
-h1{
-    color: teal;
-    font-family: 'Avantgarde';
-
-}
 
 /*
 Get contact links to jump page when clicked on and connect to web source.
