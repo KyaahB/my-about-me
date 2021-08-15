@@ -19,6 +19,19 @@ header {
     
 }
 
+button{
+    background-color: var(--lavender)
+}
+
+#navbar{
+    background-color: var(--blue)
+    
+}
+
+#navbar p{
+    font-size: 13px;
+}
+
 
 .dropdown-header{
     /* font:bold */
