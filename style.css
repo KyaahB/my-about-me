@@ -7,24 +7,6 @@
 --mustard: #e67f0dff;
 }
 
-
-/*
-Customize profile image.
-*/
-img {
-    border-radius: 50%;
-    height: 250px;
-    margin: 20px;
-}
-
-/* customize my name */
-h1{
-    color:var(--orange);
-    font-family: 'Avantgarde';
-    font-size: 40px;
-
-}
-
 /*
 Customize header.
 */
@@ -36,12 +18,40 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+
+.dropdown-header{
+    /* font:bold */
+}
+
+
+
+
+/*
+Customize profile image.
+*/
+img {
+    border-radius: 50%;
+    height: 250px;
+    margin: 15px;
+    
+}
+
+/* customize my name */
+h1{
+    color:var(--blue);
+    font-family: 'Avantgarde';
+    font-size: 43px;
+    margin-top: 100px;
+
+}
+
 /*
 Customize section titles
 */
 h2 {
     font-style: italic;
-    color:orchid;
+    color: var(--navy);
     font-size: 30px;
     text-align: left;
 }
@@ -50,30 +60,33 @@ h2 {
 Customize text on the entire page with p tag.
 */
 #description{
-
-    padding: 30px;
-    font-family: 'Gill Sans';
-    color:blue;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px;
-    width: 80%;
-    background-color: var(--yellow)
-}
-
-section{
+    padding: 100px;
+    /* width: 10%; */
     justify-content: right;
     display:flex;
     background-color: var(--mustard);
+    width: fit-content;
+    
 }
 
+p{
+    
+    font-style: 'andale mono', monospace;
+    font-size: 25px;
+    color: var(--blue);
+    margin-left: 50px;
+}
+
+/* section{
+} */
 
 
 
 
-#description{
+
+/* #description{
 display:inline-block;
-} 
+}  */
 
 
 
@@ -146,9 +159,9 @@ Customize footer.
 */
 footer {
     text-align: center;
-    padding: 20px;
-    margin: 15px;
+    padding: 5px;
+    /* margin: 0px; */
     font-size: 20px;
-    background-color: DarkSalmon;
+    background-color: var(--orange);
     
   }
