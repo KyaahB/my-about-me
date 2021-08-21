@@ -7,6 +7,12 @@
 --mustard: #e67f0dff;
 }
 
+
+h1{
+    width: 100%;
+    position:absolute ; right: -15px
+}
+
 /*
 Customize header.
 */
@@ -19,9 +25,14 @@ header {
     
 }
 
-button{
-    background-color: var(--lavender)
+.dropdown{
+   position: absolute; left: 20px
 }
+/* 
+button{
+    background-color: var(--lavender);
+    
+} */
 
 #navbar{
     background-color: var(--blue)
