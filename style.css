@@ -158,6 +158,7 @@ Customize portfolio images. Push images to right side of the page.
     padding: 50px;
     margin: 5px;
     font-size: 20px;
+    background-color: var(--blue);
 
 }
  
@@ -257,7 +258,7 @@ footer {
     }
   }
   body {
-    background: #eee;
+    /* background: #eee; */
     font-family: "Tahoma";
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -334,7 +335,7 @@ footer {
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url("images/circle.png");
+    background-image: url("images/gold-ingots.png");
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -346,7 +347,7 @@ footer {
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+    background-image: url("images/circle.png");
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -358,7 +359,7 @@ footer {
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+    background-image: url("images/circle.png");
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -410,9 +411,9 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
   } */
-  body #scene #left-zone .list li.item input[type=radio] ~ .content.content_apple h1 {
-    color: #00B16A;
-  }
+  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_apple h1 { */
+    /* color: #00B16A; */
+  /* } */
   /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange .picto {
     height: 100px;
     width: 100px;
@@ -421,12 +422,13 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
   } */
-  body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange h1 {
-    color: #F27935;
+  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange h1 {
+    color: var(--lavender);
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content h1:first-letter {
     text-transform: uppercase;
-  }
+  } */
+
   body #scene #left-zone .list li.item input[type=radio] ~ .content p {
     max-width: 50%;
     text-align: center;
@@ -436,21 +438,23 @@ footer {
     -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
             animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
+
+  /* carousel title font styling --------------------------------------------------------*/
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_strawberry {
-    color: #D64541;
-    border-right: solid 4px #D64541;
+    color: var(--yellow);
+    border-right: solid 4px var(--yellow);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_banana {
-    color: #F5D76E;
-    border-right: solid 4px #F5D76E;
+    color: var(--yellow);
+    border-right: solid 4px var(--yellow);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_apple {
-    color: #00B16A;
-    border-right: solid 4px #00B16A;
+    color: var(--yellow);
+    border-right: solid 4px var(--yellow);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_orange {
-    color: #F27935;
-    border-right: solid 4px #F27935;
+    color: var(--yellow);
+    border-right: solid 4px var(--yellow);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ .content {
     -webkit-animation-duration: 0.75s;
@@ -470,9 +474,10 @@ footer {
     z-index: 0;
   }
   body #scene #right-zone {
-    background: #fff;
+    background: var(--lavender);
     height: 100%;
     flex-grow: 3;
+  
   }
 
   .icons{
