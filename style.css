@@ -151,30 +151,7 @@ Customize portfolio container
 /*
 Customize boxes in portfolio.
 */
-.big {
-    height: 350px;
-    width: 450px;
-}
-
-.box1{
-    height: 200px;
-    width: 210px;
-}
-
-.box2{
-    height: 200px;
-    width: 210px;
-}
-
-.box3{
-    height: 200px;
-    width: 210px;
-}
-
-.box4{
-    height: 200px;
-    width: 210px;
-}
+/*  */
 
 /*
 Customize footer.
@@ -257,7 +234,6 @@ img{
     }
   }
   body {
-    /* background: #eee; */
     font-family: "Tahoma";
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -315,7 +291,7 @@ img{
     opacity: 0.75;
     cursor: pointer;
   }
-  body #scene #left-zone .list li.item input[type=radio] ~ label.label_strawberry:before {
+  body #scene #left-zone .list li.item input[type=radio] ~ label.label_one:before {
     content: " ";
     display: block;
     position: absolute;
@@ -327,7 +303,7 @@ img{
     background-size: 75% 75%;
     background-repeat: no-repeat;
   }
-  body #scene #left-zone .list li.item input[type=radio] ~ label.label_banana:before {
+  body #scene #left-zone .list li.item input[type=radio] ~ label.label_two:before {
     content: " ";
     display: block;
     position: absolute;
@@ -339,7 +315,7 @@ img{
     background-size: 75% 75%;
     background-repeat: no-repeat;
   }
-  body #scene #left-zone .list li.item input[type=radio] ~ label.label_apple:before {
+  body #scene #left-zone .list li.item input[type=radio] ~ label.label_three:before {
     content: " ";
     display: block;
     position: absolute;
@@ -351,7 +327,7 @@ img{
     background-size: 75% 75%;
     background-repeat: no-repeat;
   }
-  body #scene #left-zone .list li.item input[type=radio] ~ label.label_orange:before {
+  body #scene #left-zone .list li.item input[type=radio] ~ label.label_four:before {
     content: " ";
     display: block;
     position: absolute;
@@ -382,57 +358,6 @@ img{
   }
 
 
-  .content.content_strawberrry img{
-     max-width: max-content;
-     height: 30;
-  }
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_strawberry .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_strawberry h1 {
-    color: #D64541;
-  } */
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_banana .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png"); 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }  */
-  body #scene #left-zone .list li.item input[type=radio] ~ .content.content_banana h1 {
-    color: #F5D76E;
-  }
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_apple .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_apple h1 { */
-    /* color: #00B16A; */
-  /* } */
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-  /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange h1 {
-    color: var(--lavender);
-  }
-  body #scene #left-zone .list li.item input[type=radio] ~ .content h1:first-letter {
-    text-transform: uppercase;
-  } */
 
   body #scene #left-zone .list li.item input[type=radio] ~ .content p {
     max-width: 50%;
@@ -445,19 +370,19 @@ img{
   }
 
   /* carousel title font styling --------------------------------------------------------*/
-  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_strawberry {
+  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_one {
     color: var(--yellow);
     border-right: solid 4px var(--yellow);
   }
-  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_banana {
+  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_two {
     color: var(--yellow);
     border-right: solid 4px var(--yellow);
   }
-  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_apple {
+  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_three {
     color: var(--yellow);
     border-right: solid 4px var(--yellow);
   }
-  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_orange {
+  body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_four {
     color: var(--yellow);
     border-right: solid 4px var(--yellow);
   }
