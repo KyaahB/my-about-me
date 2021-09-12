@@ -34,11 +34,7 @@ header {
    position: relative; left: 0px ;
    color: var(--lavender);
 }
-/* 
-button{
-    background-color: var(--lavender);
-    
-} */
+
 
 #navbar{
     background-color: var(--blue);
@@ -62,16 +58,14 @@ aside {
 
   aside p{
       font-size: 15px;
-      
-      
+       
   }
-
 
 
 /*
 Customize profile image.
 */
-img {
+.profile {
     border-radius: 50%;
     height: 250px;
     margin: 15px;
@@ -120,22 +114,7 @@ p{
     margin-left: 50px;
 }
 
-/* section{
-} */
 
-
-
-
-
-/* #description{
-display:inline-block;
-}  */
-
-
-
-/*
-Cuztomize header at the top of the page.
-*/
 
 /*
 Get contact links to jump page when clicked on and connect to web source.
@@ -149,16 +128,28 @@ li {
     
     
 }
+
+/*Customize text inside of carousel*/
+
+h3{
+  font-style: 'andale mono', monospace;
+  font-size: 20px;
+  color: var(--yellow);
+  margin-left: 20px;
+}
+
+
+
 /*
-Customize portfolio images. Push images to right side of the page.
+Customize portfolio container
 */
 .portfolio-box {
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    text-align: right;
     padding: 50px;
     margin: 5px;
     font-size: 20px;
-    background-color: var(--blue);
+    background-color: var(--yellow);
+    
 
 }
  
@@ -216,6 +207,12 @@ footer {
   }
 
 /* CAROUSEL-------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+img{
+    /* height: 35px;
+    margin: 15px;   */
+    max-width: 100%;
+}
+
 
 @-webkit-keyframes slidein {
     0% {
@@ -277,12 +274,12 @@ footer {
     left: 0;
     right: 0;
     margin: auto;
-    background-color: var(--lavender);
+    background-color: var(--blue);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     overflow: hidden;
   }
   body #scene #left-zone {
-    background:var(--lavender);
+    background:var(--blue);
     height: 75%;
     flex-grow: 0;
     display: flex;
@@ -381,6 +378,12 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
+
+
+  .content.content_strawberrry img{
+     max-width: max-content;
+     height: 30;
+  }
   /* body #scene #left-zone .list li.item input[type=radio] ~ .content.content_strawberry .picto {
     height: 100px;
     width: 100px;
@@ -474,7 +477,7 @@ footer {
     z-index: 0;
   }
   body #scene #right-zone {
-    background: var(--lavender);
+    background: var(--blue);
     height: 100%;
     flex-grow: 3;
   
